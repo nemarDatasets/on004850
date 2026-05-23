@@ -1,23 +1,47 @@
 {
   "version": "2.0",
-  "dataset_id": "on004850",
-  "source": "openneuro",
-  "source_id": "ds004850",
+  "pipeline_stage": "validated",
   "title": "ODE",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tony Johnson": {},
     "Stephen Gordon": {},
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004850.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004850",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004850",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "82.8 MB (3 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "ODE is a neuroimaging dataset formatted according to BIDS standards (version 1.8.0). The dataset serves as a reference resource for neuroimaging research and is made available under the CC0 license to facilitate open science and data sharing.",
+  "source_hash": "fcf8a20d9e2c69416e1b3cbe0e82cc4c7c3e2ef94683e150a4d0a3f123958377"
 }
