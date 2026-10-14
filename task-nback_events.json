@@ -1,8 +1,10 @@
 {
+    "sample": {
+        "Description": "Onset of the event measured in samples (relative to the start of the recording)."
+    },
     "value": {
         "Description": "event identifier",
         "HED": {
-            "1": "Task",
             "1102": "Task",
             "1103": "Task",
             "1104": "Task",
@@ -24,7 +26,6 @@
             "303": "Task",
             "304": "Task",
             "305": "Task",
-            "307": "Task",
             "4": "Task",
             "5": "Task",
             "51000": "Participant-response",
