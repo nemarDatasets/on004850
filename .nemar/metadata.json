@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ODE",
-  "description": "ODE is an EEG dataset formatted according to BIDS with HED annotations, contributed by Johnson, Gordon, Touryan, and King. The available documentation describes it only as a placeholder dataset, so no further details on content or purpose are provided.",
+  "description": "ODE is an EEG dataset recorded during an n-back task, containing 64-channel scalp EEG in EEGLAB format with HED-annotated event codes. The record is described as a placeholder dataset, and its documentation mainly covers curation changes to sidecar files, such as channel types and units, event dictionaries, and recording metadata.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,6 +11,25 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "n-back task"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "HED annotation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004850.v1.0.0",
@@ -43,16 +62,7 @@
     ".tsv",
     ".yml"
   ],
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Hierarchical Event Descriptors"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "fcf8a20d9e2c69416e1b3cbe0e82cc4c7c3e2ef94683e150a4d0a3f123958377"
+  "resource_type_general": "Dataset",
+  "methods_description": "64-channel scalp EEG following the 10-10 electrode placement scheme was recorded during an n-back task. Data are stored as EEGLAB .set/.fdt files in microvolts, with events annotated using HED.",
+  "source_hash": "4b13059a9ce1eba16c2a3f47f829814d74bc0082deee0e98df294dff5ccd8680"
 }
